@@ -4,7 +4,7 @@ import './component/signform.css'
 const SignUpPage = () => {
     return (
       <div className="signup-container">
-        <h1 className="heading">Welcome to SignUp Form</h1>
+        <h1 className="heading">Welcome to TaskList Pro</h1>
         <div className="input-container">
           <input
             type="email"
@@ -23,5 +23,5 @@ const SignUpPage = () => {
       </div>
     );
   };
-
-export default SignUpPage
+  
+  export default SignUpPage;
